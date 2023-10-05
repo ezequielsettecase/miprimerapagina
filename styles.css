@@ -1,0 +1,223 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style-type: none;
+  }
+
+  .fuente-clara {color: #eeeeee;}
+  .fuente-oscura {color: #22211f;}
+  .fuente-acento {color: #b59a61;}
+
+  html {
+    position: relative;
+    min-height: 100%;
+  }
+
+body{
+    background-color: beige;
+}
+
+/*HEADER*/
+
+header{
+    background-color: rgb(179, 206, 116);
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 20px;
+    width: 100%;
+    position: fixed;
+}
+header h1.fuente-acento {
+    font-size: 35px;
+    font-weight: bold;
+    display: inline-block;
+    line-height: 0px 50px;
+    padding: 0 50px;
+  }
+nav ul li a{
+    color: azure;
+}
+nav ul li {
+    display: inline-block;
+     margin-right: 20px;
+     line-height: 0px 50px;
+   }
+   header nav {
+    float: right;
+    padding:13px 0px;
+  }
+
+ /*MAIN*/
+
+main .seccion1{
+    background-color: beige;
+    padding: 100px;
+    width: 100%;
+}
+
+p{
+    padding: 10px 0px 10px 0px;
+    font-size: 18px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.seccion1 img{
+    width: 25%;
+    height: 20%;
+}
+
+.banner img{
+    max-width: 100%;
+    max-height: 100%;
+}
+
+
+section.seccion1{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-content: center;
+}
+
+.proyectos{
+    height: 500px;
+    background-color: beige;
+    padding: 0px 50px;
+    
+}
+.proyectos .fuente-acento{
+    padding: 50px 0px;
+}
+.container{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+
+}
+.caja{
+    width: 246px;;
+}
+
+.form-header{
+    background-color: #f6f7f8;
+    border: 1px solid #d6d9dc;
+    border-radius: 3px;
+    width: 100%;
+    padding: 50px;
+   
+
+}
+.form-row {
+    margin-bottom: 40px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
+  
+  .form-row input[type="text"], 
+  .form-row input[type="email"] {
+    background-color: #bdbdbd;
+    border: 0;
+    border-radius: 6px;
+    width: 100%;
+    padding: 7px;
+    font-size: 14px;
+  }
+  
+  .form-row label {
+    margin-bottom: 3px;
+    text-align: initial;
+  }
+  /* ------------- Para Pantallas de más de 700px ------------- */
+@media only screen and (min-width: 700px) {
+    .form-header {
+      padding: 50px;
+    }
+  
+    .form-row {
+      flex-direction: row;
+      align-items: center;
+      margin-bottom: 20px;
+    }
+    .form-row input[type="text"],
+    .form-row input[type="email"] {
+      width: 250px;
+      height: initial;
+    }
+    .form-row label {
+      text-align: right;
+      width: 120px;
+      margin-top: 7px;
+      padding-right: 20px;
+    }
+  }
+  .form-row textarea {
+    font-family: "Helvetica", "Arial", sans-serif;
+    font-size: 14px;
+  
+  
+    background-color: #bdbdbd;
+    border: 0;
+    border-radius: 6px;
+  
+  
+    min-height: 200px;
+    margin-bottom: 10px;
+    padding: 7px;
+    resize: none;
+  
+  
+    width: 100%;
+  }
+  /* ------------- Para Pantallas de más de 700px ------------- */
+  
+  
+  .form-row textarea {
+      width: 250px;
+    }
+    .form-row button {
+        font-size: 16px;
+        font-weight: bold;
+      
+      
+        color: #ffffff;
+        background-color: #5995da;
+      
+      
+        border: none;
+        border-radius: 3px;
+      
+      
+        padding: 10px 40px;
+        cursor: pointer;
+      }
+      
+      
+      .form-row button:hover {
+        background-color: #76aeed;
+      }
+      
+      
+      .form-row button:active {
+        background-color: #407fc7;
+      }
+      
+      
+      /* ------------- Para Pantallas de más de 700px ------------- */
+      
+      
+      .form-row button {
+          margin-left: 120px;
+      }
+footer{
+    background-color: rgb(179, 206, 116);
+    padding: 20px;
+    width: 100%;
+    position: absolute;
+    width: 100%;
+}
+span{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
